@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import axiosInstance from '../utils/axiosInstance'; // ✅ Use the authenticated instance
-
 function AccountsList() {
     const [account, setAccount] = useState(null);
     const [search, setSearch] = useState('');
