@@ -1,0 +1,17 @@
+.app-layout {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.main-content-area {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f6f9;
+  overflow-y: auto;
+}
+
+.dashboard h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
